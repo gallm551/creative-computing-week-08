@@ -44,5 +44,25 @@ a:hover {
   width: 200px;  
   height: 200px;
   background: red;
-  transform: scale(1.5) rotate(45deg) translate(50px, 50px) skewX(30deg) skewY(20deg);
+  transition: transform 5s, background-color: 1s;
+  transition-delay: 1s;
+}
+
+.shape:hover {
+  transform: rotateZ(45deg);
+  background-color: violet;
+}
+
+.shape2 {
+  margin-left: 100px;
+  width: 200px;  
+  height: 200px;
+  background: red;
+  transition: transform 5s, background-color: 1s;
+  transition-delay: 1s;
+}
+
+.shape2:hover {
+  transform: rotateZ(45deg) scale(1.5);
+  background: blue;
 }
