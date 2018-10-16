@@ -25,6 +25,8 @@ h1 {
 a {
   color: blue;
   text-decoration: none;
+  transition: all 3s;
+  transition-delay: 1s;
 }
 
 a:hover {
@@ -42,7 +44,6 @@ a:hover {
 }
 .content:hover {
   background: black;
-
 }
 
 .shape {
@@ -71,4 +72,9 @@ a:hover {
 .shape2:hover {
   transform: rotateZ(405deg) scale(1.5);
   background: blue;
+}
+
+.content:hover a {
+  color: white;
+
 }
