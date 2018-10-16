@@ -37,6 +37,12 @@ a:hover {
   width: 100%;
   padding: 20px;
   background: #efefef;
+  transition: all 4s;
+  transition-delay: 1s;
+}
+.content:hover {
+  background: black;
+
 }
 
 .shape {
@@ -48,7 +54,7 @@ a:hover {
   transition-delay: 1s;
 }
 
-.shape:hover {
+.content:hover .shape {
   transform: rotateZ(45deg);
   background-color: violet;
 }
@@ -63,6 +69,6 @@ a:hover {
 }
 
 .shape2:hover {
-  transform: rotateZ(45deg) scale(1.5);
+  transform: rotateZ(405deg) scale(1.5);
   background: blue;
 }
