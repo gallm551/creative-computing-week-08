@@ -52,8 +52,11 @@ a {
 }
 
 .triangle {
-border-top: 10px solid red;
-border-right: 10px solid red;
-border-bottom: 10px solid red;
-border-left: 10px solid red;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 200px solid navy;
+    border-bottom: 100px solid transparent;
+    background: transparent;
 }
